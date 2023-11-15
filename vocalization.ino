@@ -107,11 +107,6 @@ void loop()
             {
                 brightnessList[i] = 0.0;
             }
-            //  else {
-
-            //   brightnessList[i] = currentBrightness > 0.0 ? brightnessList[i] -= fadeOutSpd : brightnessList[i];
-            //   brightnessList[i] = currentBrightness < 5.0 ? 0.0 : brightnessList[i];
-            // }
         }
         // if it's current playing: fade in
         else
